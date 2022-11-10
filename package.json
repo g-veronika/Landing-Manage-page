@@ -1,0 +1,26 @@
+{
+  "name": "Landing-Manage-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "tailwindcss": "^3.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g-veronika/Landing-Manage-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g-veronika/Landing-Manage-page/issues"
+  },
+  "homepage": "https://github.com/g-veronika/Landing-Manage-page#readme"
+}
