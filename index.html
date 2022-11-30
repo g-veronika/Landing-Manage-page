@@ -24,7 +24,27 @@
             class="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block">
             Get Started
             </a>
+
+
+            <!-- Hamburger Icon -->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
         </div> 
+
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+            <div id="menu" class="absolute flex flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="#">Pricing</a>
+                <a href="#">Product</a>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Community</a>
+            </div>
+        </div>
+
     </nav>    
     <section id="hero">
         <div class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row">
